@@ -1,0 +1,21 @@
+.navbar-container {
+  background-color: #f8f2f4;
+  padding: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  .links-container {
+    display: flex;
+
+    .link-li {
+      margin: auto;
+      padding: 0 10px;
+      list-style-type: none;
+      font-weight: 550;
+      border-bottom: 3px solid transparent;
+      transition: border-bottom 0.33s;
+      &:hover {
+        border-bottom: 3px solid #b4e7ce;
+      }
+    }
+  }
+}

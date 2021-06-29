@@ -1,0 +1,28 @@
+.hero-container {
+  text-align: center;
+  background-color: #f8f2f4;
+  height: 100vh;
+  .hero-img {
+    padding: 5px 0;
+    max-height: 100%;
+    height: 50vh;
+  }
+  font-size: 2rem;
+  .hero-colored-text {
+    color: #a1e2c3;
+  }
+  .hero-button {
+    background-color: #3f784c;
+    color: #f8f2f4;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    padding: 6px 13px;
+    &:hover {
+      background-color: #f8f2f4;
+      color: #3f784c;
+      border: 1px solid #3f784c;
+      cursor: pointer;
+    }
+  }
+}
