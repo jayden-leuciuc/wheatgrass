@@ -1,10 +1,11 @@
 import React from 'react';
 
 import './GetStarted.styles.scss';
+import CustomButton from '../CustomButton/CustomButton.component';
 
 const GetStarted = () => {
   return (
-    <div id='getStarted' className='getstarted-container'>
+    <div className='getstarted-container'>
       <div className='started-left-div'>
         <h1>Get Started</h1>
         <p>
@@ -12,7 +13,6 @@ const GetStarted = () => {
           Follow the steps on the right to get started to further decentralize
           the wheatgrass network
         </p>
-        <button>Learn more</button>
       </div>
       <div className='started-right-div'>
         <div className='started-section-button'>

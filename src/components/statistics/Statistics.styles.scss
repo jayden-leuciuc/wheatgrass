@@ -1,0 +1,14 @@
+.statistics-container {
+  padding: 75px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f8f2f4;
+  text-align: center;
+  .statistic-block {
+    padding: 50px 10px;
+    width: 40%;
+    border: 2px solid #b4e7ce;
+    border-radius: 5px;
+  }
+}

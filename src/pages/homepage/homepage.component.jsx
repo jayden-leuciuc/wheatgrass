@@ -1,13 +1,19 @@
 import React from 'react';
 
-import { Hero, Navbar, GetStarted } from '../../components/componentExport';
+import {
+  Hero,
+  Navbar,
+  Statistics,
+  Overview,
+} from '../../components/componentExport';
 
 const HomePage = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <GetStarted />
+      <Overview />
+      <Statistics />
     </>
   );
 };

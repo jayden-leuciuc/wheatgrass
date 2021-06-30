@@ -1,6 +1,7 @@
 import React from 'react';
 
 import wheatGrassPng from '../../images/bruh.png';
+import CustomButton from '../CustomButton/CustomButton.component';
 
 import './Hero.styles.scss';
 
@@ -14,7 +15,11 @@ const Hero = () => {
         <span className='hero-colored-text'>energy efficient</span> blockchain
         that is powered by you
       </div>
-      <button className='hero-button'>Learn More</button>
+      <CustomButton
+        buttonText='Why use Wheatgrass?'
+        link='/faq'
+        outsideLink={false}
+      />
     </div>
   );
 };
