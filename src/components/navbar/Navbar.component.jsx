@@ -8,31 +8,24 @@ import './Navbar.styles.scss';
 const Navbar = () => {
   return (
     <div className='navbar-container'>
-      <Link to='/'>
-        <img src={wheatgrassLogo} alt='LOGO' />
-      </Link>
-      <ul className='links-container'>
-        <div className='link-li'>
-          <Link to='/get-started'>
-            <li>Get Started</li>
-          </Link>
-        </div>
+      <li className='link-li'>
+        <Link to='/'>
+          <img src={wheatgrassLogo} alt='LOGO' />
+        </Link>
+      </li>
+      <li className='link-li'>
+        <Link to='/get-started'>
+          <p>Get Started</p>
+        </Link>
+      </li>
 
-        <div className='link-li'>
-          <li>Developers</li>
-        </div>
+      <li className='link-li'>Developers</li>
 
-        <div className='link-li'>
-          <Link to='/faq'>
-            <li>FAQ</li>
-          </Link>
-        </div>
-        <div className='link-li'>
-          <span className='language'>
-            <li>EN V</li>
-          </span>
-        </div>
-      </ul>
+      <li className='link-li'>
+        <Link to='/faq'>FAQ</Link>
+      </li>
+
+      <li className='link-li'>Download</li>
     </div>
   );
 };

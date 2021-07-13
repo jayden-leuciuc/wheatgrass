@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+
+  .social-container {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    .social-link {
+      padding: 0 3px;
+    }
+  }
+  .list-container {
+    padding: 20px;
+    text-align: center;
+    ul {
+      list-style-type: none;
+      li {
+        padding: 5px 0;
+        &:hover {
+          color: aquamarine;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

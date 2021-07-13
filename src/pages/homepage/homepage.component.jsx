@@ -5,6 +5,7 @@ import {
   Navbar,
   Statistics,
   Overview,
+  Footer,
 } from '../../components/componentExport';
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Hero />
       <Overview />
       <Statistics />
+      <Footer />
     </>
   );
 };
