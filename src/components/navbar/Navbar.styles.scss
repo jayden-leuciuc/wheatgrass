@@ -1,8 +1,13 @@
 .navbar-container {
+  width: 100%;
   background-color: #f8f2f4;
   padding: 15px 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+  img {
+    max-height: 45px;
+    float: left;
+  }
   .links-container {
     display: flex;
 
@@ -10,11 +15,13 @@
       margin: auto;
       padding: 0 10px;
       list-style-type: none;
-      font-weight: 550;
+      font-weight: 600;
+      font-size: 20px;
       border-bottom: 3px solid transparent;
       transition: border-bottom 0.33s;
       &:hover {
         border-bottom: 3px solid #b4e7ce;
+        cursor: pointer;
       }
     }
   }

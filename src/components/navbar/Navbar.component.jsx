@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import wheatgrassLogo from '../../images/wheatgrassSingle.png';
+
 import './Navbar.styles.scss';
 
 const Navbar = () => {
   return (
     <div className='navbar-container'>
       <Link to='/'>
-        <img src='' alt='LOGO' />
+        <img src={wheatgrassLogo} alt='LOGO' />
       </Link>
       <ul className='links-container'>
         <div className='link-li'>
@@ -25,7 +28,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='link-li'>
-          <li>EN V</li>
+          <span className='language'>
+            <li>EN V</li>
+          </span>
         </div>
       </ul>
     </div>

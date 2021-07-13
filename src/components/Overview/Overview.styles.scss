@@ -1,8 +1,11 @@
 .overview-container {
-  background-color: #f8f2f4;
+  background-color: #eee5e5;
   max-width: 100%;
   h1 {
+    background-color: #eee5e5;
     text-align: center;
+    padding: 10px 0 0;
+    font-size: 40px;
   }
   .overview-flex {
     display: flex;
@@ -10,14 +13,21 @@
     margin: 0 10vw;
     background-color: #eee5e5;
     .overview-text-div {
+      background-color: #eee5e5;
       padding: 100px 0 0 0;
       max-width: 50%;
       font-size: 1.5rem;
+      p {
+        background-color: #eee5e5;
+        margin-bottom: 20px;
+      }
     }
     .overview-svg-div {
+      background-color: #eee5e5;
       justify-content: center;
 
       img {
+        background-color: #eee5e5;
         height: 500px;
       }
     }

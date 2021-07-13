@@ -1,7 +1,12 @@
 .hero-container {
   text-align: center;
-  background-color: #f8f2f4;
+
   height: 100vh;
+  .hero-text {
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 15px;
+  }
   .hero-img {
     padding: 5px 0;
     max-height: 100%;

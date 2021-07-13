@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Overview.styles.scss';
-import wheatGrassImage from '../../images/bruh.png';
+import wheatGrassImage from '../../images/watercolorWheatgrass.png';
 import CustomButton from '../CustomButton/CustomButton.component';
 
 const Overview = () => (
@@ -14,12 +14,11 @@ const Overview = () => (
           accusamus aspernatur temporibus molestiae consequuntur enim,
           accusantium quia. Ad aliquid aut obcaecati odit quisquam consectetur
           facilis, earum quia dolores a.
-          <br />
-          <CustomButton buttonText='Get Started' link={'/get-started'} />
         </p>
+        <CustomButton buttonText='Get Started' link={'/get-started'} />
       </div>
       <div className='overview-svg-div'>
-        <img src={wheatGrassImage} alt='' />
+        <img src={wheatGrassImage} alt='Wheatgrass logo' />
       </div>
     </div>
   </div>
