@@ -3,10 +3,17 @@
   justify-content: space-around;
 
   .started-left-div {
-    padding: 30px 150px;
+    padding: 30px 60px;
     max-width: 50%;
+
     button {
       text-align: center;
+    }
+    h1 {
+      font-size: 34px;
+    }
+    p {
+      font-size: 23px;
     }
   }
   .started-right-div {
@@ -17,11 +24,14 @@
         margin: 25px 0;
         text-align: center;
         display: flex;
-        button {
+
+        .button-link {
           font-size: 1.5rem;
           width: 500px;
-          height: 50px;
+          height: 100%;
+          padding: 10px 0;
           border: 1px solid #b4e7ce;
+          border-radius: 4px;
           color: #87c38f;
           background-color: transparent;
           transition: color, background-color 0.5s;

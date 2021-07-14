@@ -25,7 +25,10 @@ const Navbar = () => {
         <Link to='/faq'>FAQ</Link>
       </li>
 
-      <li className='link-li'>Download</li>
+      <li className='link-li'>
+        {' '}
+        <Link to='download'>Download</Link>
+      </li>
     </div>
   );
 };

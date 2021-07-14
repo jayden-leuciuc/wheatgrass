@@ -2,6 +2,7 @@ import React from 'react';
 
 import './GetStarted.styles.scss';
 import CustomButton from '../customButton/CustomButton.component';
+import { Link } from 'react-router-dom';
 
 const GetStarted = () => {
   return (
@@ -17,16 +18,20 @@ const GetStarted = () => {
       <div className='started-right-div'>
         <div className='started-section-button'>
           <div className='button-container'>
-            <button>Inform yourself</button>
+            <Link className='button-link' to='/faq'>
+              Inform Yourself
+            </Link>
           </div>
           <div className='button-container'>
-            <button>Get your wallet</button>
+            <Link className='button-link'>Get your wallet</Link>
           </div>
           <div className='button-container'>
-            <button>Get wheatgrass</button>
+            <Link className='button-link' to='/download'>
+              Get wheatgrass
+            </Link>
           </div>
           <div className='button-container'>
-            <button>Use it</button>
+            <Link className='button-link'>Use it</Link>
           </div>
         </div>
       </div>

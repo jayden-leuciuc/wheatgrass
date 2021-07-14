@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.styles.scss';
 
@@ -26,9 +27,13 @@ const Footer = () => {
       <div className='list-container'>
         <h3>Use Wheatgrass</h3>
         <ul>
-          <li>FAQ</li>
+          <li>
+            <Link to='/faq'>FAQ</Link>
+          </li>
           <li>Wallets</li>
-          <li>Download</li>
+          <li>
+            <Link to='/download'>Download</Link>
+          </li>
         </ul>
       </div>
 

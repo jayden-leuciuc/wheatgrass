@@ -7,55 +7,45 @@ export const faqData = [
   },
   {
     id: 2,
-    title: 'Question 2',
+    title: 'Another crypto, why?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
   {
     id: 3,
-    title: 'Question 3',
+    title: 'How can I use Chia?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
   {
     id: 4,
-    title: 'Question 4',
+    title: 'What is farming?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
   {
     id: 5,
-    title: 'Question 5',
+    title: 'Why would I want to farm?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
+
   {
     id: 6,
-    title: 'Question 6',
+    title: 'How do I buy chia?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
+
   {
     id: 7,
-    title: 'Question 7',
+    title: 'Where can I find the source code?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
   {
     id: 8,
-    title: 'Question 8',
-    answer:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
-  },
-  {
-    id: 9,
-    title: 'Question 9',
-    answer:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
-  },
-  {
-    id: 10,
-    title: 'Question 10',
+    title: 'Why is it called wheatgrass?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },

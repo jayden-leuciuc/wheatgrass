@@ -7,6 +7,7 @@ import Faq from './faq/Faq.component';
 import Footer from './footer/Footer.component';
 import Error404 from './error-404/Error-404.component';
 import Developers from './developers/Developers.component';
+import Download from './download/Download.component';
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Footer,
   Error404,
   Developers,
+  Download,
 };

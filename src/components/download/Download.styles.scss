@@ -1,0 +1,26 @@
+.download-container {
+  text-align: center;
+
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 23px;
+  }
+  hr {
+    margin: 0 20vw;
+    border-top: none;
+  }
+  .download-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20vw;
+    a {
+      padding: 7px 0;
+      background-color: #b4e7ce;
+      border-radius: 3px;
+      min-width: 200px;
+      color: #fff;
+    }
+  }
+}
