@@ -1,0 +1,39 @@
+.faq-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  .side-navbar-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+    padding: 45px 0 0;
+    font-size: 20px;
+    ul {
+      list-style-type: none;
+      h3 {
+        font-size: 30px;
+      }
+      li {
+        font-size: 23px;
+      }
+    }
+  }
+  .questions-container {
+    width: 60%;
+    h1 {
+      padding: 10px 10px 20px;
+      font-size: 40px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 38px;
+      padding: 13px 0;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 20px;
+      padding-bottom: 35px;
+    }
+  }
+}

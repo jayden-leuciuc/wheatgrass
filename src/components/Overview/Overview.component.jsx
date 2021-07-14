@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Overview.styles.scss';
 import wheatGrassImage from '../../images/watercolorWheatgrass.png';
-import CustomButton from '../CustomButton/CustomButton.component';
+import CustomButton from '../customButton/CustomButton.component';
 
 const Overview = () => (
   <div className='overview-container'>

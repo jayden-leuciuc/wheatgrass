@@ -1,7 +1,7 @@
 import React from 'react';
 
 import wheatGrassPng from '../../images/watercolorWheatgrass.png';
-import CustomButton from '../CustomButton/CustomButton.component';
+import CustomButton from '../customButton/CustomButton.component';
 
 import './Hero.styles.scss';
 

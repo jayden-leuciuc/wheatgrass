@@ -1,12 +1,13 @@
 import React from 'react';
 
-import { GetStarted, Navbar } from '../../components/componentExport';
+import { GetStarted, Navbar, Footer } from '../../components/componentExport';
 
 const GetStartedPage = () => (
-  <div>
+  <>
     <Navbar />
     <GetStarted />
-  </div>
+    <Footer />
+  </>
 );
 
 export default GetStartedPage;

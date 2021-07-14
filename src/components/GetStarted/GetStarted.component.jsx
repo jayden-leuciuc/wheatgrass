@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './GetStarted.styles.scss';
-import CustomButton from '../CustomButton/CustomButton.component';
+import CustomButton from '../customButton/CustomButton.component';
 
 const GetStarted = () => {
   return (

@@ -1,8 +1,7 @@
 .getstarted-container {
-  background-color: #f8f2f4;
   display: flex;
   justify-content: space-around;
-  height: 200vh;
+
   .started-left-div {
     padding: 30px 150px;
     max-width: 50%;
@@ -24,7 +23,7 @@
           height: 50px;
           border: 1px solid #b4e7ce;
           color: #87c38f;
-          background-color: #f8f2f4;
+          background-color: transparent;
           transition: color, background-color 0.5s;
           &:hover {
             cursor: pointer;
