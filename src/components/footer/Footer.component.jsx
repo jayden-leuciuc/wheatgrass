@@ -49,11 +49,15 @@ const Footer = () => {
       <div className='list-container'>
         <h3>About</h3>
         <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-          <li>Privacy Policy</li>
-          <li>Terms of Use</li>
-          <li>Contact</li>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <Link to='/careers'>Careers</Link>
+          </li>
+          <li>
+            <Link to='/contact'>Contact</Link>
+          </li>
         </ul>
       </div>
     </div>

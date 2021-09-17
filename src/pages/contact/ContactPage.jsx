@@ -1,13 +1,16 @@
 import React from 'react';
 
-import { Navbar } from '../../components/componentExport';
+import { Footer, Navbar } from '../../components/componentExport';
 
 const ContactPage = () => {
   return (
-    <>
+    <div
+      style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}
+    >
       <Navbar />
-      Contact
-    </>
+      <div>contact</div>
+      <Footer style='margin-top:auto' />
+    </div>
   );
 };
 export default ContactPage;

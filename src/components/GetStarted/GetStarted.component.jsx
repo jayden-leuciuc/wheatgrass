@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './GetStarted.styles.scss';
-import CustomButton from '../customButton/CustomButton.component';
+import CustomButton from '../CustomButton/CustomButton.component';
 import { Link } from 'react-router-dom';
 
 const GetStarted = () => {
@@ -23,12 +23,12 @@ const GetStarted = () => {
             </Link>
           </div>
           <div className='button-container'>
-            <Link className='button-link'>Get your wallet</Link>
-          </div>
-          <div className='button-container'>
             <Link className='button-link' to='/download'>
               Get wheatgrass
             </Link>
+          </div>
+          <div className='button-container'>
+            <Link className='button-link'>Get your wallet</Link>
           </div>
           <div className='button-container'>
             <Link className='button-link'>Use it</Link>

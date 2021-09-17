@@ -11,11 +11,9 @@ import {
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <Overview />
       <Statistics />
-      <Footer />
     </>
   );
 };

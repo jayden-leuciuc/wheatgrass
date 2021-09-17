@@ -1,14 +1,9 @@
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
-
-import HomePage from './pages/homepage/homepage.component';
-import ContactPage from './pages/contact/ContactPage';
-import ErrorPage from './pages/404/404.component';
-import GetStartedPage from './pages/getStartedPage/GetStartedPage.component';
-import FaqPage from './pages/FAQ/FaqPage.component';
-import DevelopersPage from './pages/developers/DevelopersPage';
-import DownloadPage from './pages/download/DownloadPage';
+import * as Page from './pages/pageExport';
+import * as Component from './components/componentExport';
 
 import './App.scss';
+import { TemplatePage } from './components/componentExport';
 
 function App() {
   return (
@@ -16,25 +11,31 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path='/'>
-            <HomePage />
+            <TemplatePage componentProp={<Page.HomePage />} />
+          </Route>
+          <Route exact path='/about'>
+            <TemplatePage componentProp={<Component.About />} />
           </Route>
           <Route exact path='/contact'>
-            <ContactPage />
+            <Page.ContactPage />
+          </Route>
+          <Route exact path='/careers'>
+            <Page.CareersPage />
           </Route>
           <Route exact path='/developers'>
-            <DevelopersPage />
+            <Page.DevelopersPage />
           </Route>
           <Route exact path='/download'>
-            <DownloadPage />
+            <Page.DownloadPage />
           </Route>
           <Route exact path='/faq'>
-            <FaqPage />
+            <Page.FaqPage />
           </Route>
           <Route exact path='/get-started'>
-            <GetStartedPage />
+            <Page.GetStartedPage />
           </Route>
           <Route path='*'>
-            <ErrorPage />
+            <Page.ErrorPage />
           </Route>
         </Switch>
       </BrowserRouter>

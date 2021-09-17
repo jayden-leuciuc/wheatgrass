@@ -13,7 +13,7 @@ export const faqData = [
   },
   {
     id: 3,
-    title: 'How can I use Chia?',
+    title: 'How can I use Wheat?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },
@@ -32,7 +32,7 @@ export const faqData = [
 
   {
     id: 6,
-    title: 'How do I buy chia?',
+    title: 'How do I buy Wheat?',
     answer:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero enimaliquid repellat laboriosam, itaque iusto ad sint natus voluptasdebitis libero perspiciatis minima in nobis perferendis nesciunt dolorem. Cumque, repellat.',
   },

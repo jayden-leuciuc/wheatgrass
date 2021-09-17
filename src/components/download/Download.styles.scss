@@ -1,5 +1,6 @@
 .download-container {
   text-align: center;
+  padding: 10px;
 
   h1 {
     font-size: 45px;
@@ -11,13 +12,18 @@
     margin: 0 20vw;
     border-top: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
   .download-row {
     display: flex;
     justify-content: space-between;
     padding: 15px 20vw;
     a {
       padding: 7px 0;
-      background-color: #b4e7ce;
+      background-color: #7aa590;
       border-radius: 3px;
       min-width: 200px;
       color: #fff;
