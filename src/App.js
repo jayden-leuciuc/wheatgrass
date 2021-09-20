@@ -1,5 +1,4 @@
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
-import * as Page from './pages/pageExport';
 import * as Component from './components/componentExport';
 
 import './App.scss';
@@ -11,31 +10,31 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path='/'>
-            <TemplatePage componentProp={<Page.HomePage />} />
+            <TemplatePage componentProp={<Component.HomePage />} />
           </Route>
           <Route exact path='/about'>
             <TemplatePage componentProp={<Component.About />} />
           </Route>
           <Route exact path='/contact'>
-            <Page.ContactPage />
+            <TemplatePage componentProp={<Component.Contact />} />
           </Route>
           <Route exact path='/careers'>
-            <Page.CareersPage />
+            <TemplatePage componentProp={<Component.Careers />} />
           </Route>
           <Route exact path='/developers'>
-            <Page.DevelopersPage />
+            <TemplatePage componentProp={<Component.Developers />} />
           </Route>
           <Route exact path='/download'>
-            <Page.DownloadPage />
+            <TemplatePage componentProp={<Component.Download />} />
           </Route>
           <Route exact path='/faq'>
-            <Page.FaqPage />
+            <TemplatePage componentProp={<Component.Faq />} />
           </Route>
           <Route exact path='/get-started'>
-            <Page.GetStartedPage />
+            <TemplatePage componentProp={<Component.GetStarted />} />
           </Route>
           <Route path='*'>
-            <Page.ErrorPage />
+            <TemplatePage componentProp={<Component.Error404 />} />
           </Route>
         </Switch>
       </BrowserRouter>

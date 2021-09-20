@@ -9,7 +9,11 @@ import Error404 from './error-404/Error-404.component';
 import Developers from './developers/Developers.component';
 import Download from './download/Download.component';
 import TemplatePage from './Template/TemplatePage';
-import About from './about';
+import About from './about/About.component';
+import Careers from './Careers/Careers.component';
+import Contact from './contact/Contact.component';
+import HomePage from './Homepage/Homepage.Component';
+
 export {
   Hero,
   Navbar,
@@ -23,4 +27,7 @@ export {
   Download,
   TemplatePage,
   About,
+  Careers,
+  Contact,
+  HomePage,
 };

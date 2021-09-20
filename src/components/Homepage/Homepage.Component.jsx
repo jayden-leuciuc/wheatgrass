@@ -1,12 +1,6 @@
 import React from 'react';
 
-import {
-  Hero,
-  Navbar,
-  Statistics,
-  Overview,
-  Footer,
-} from '../../components/componentExport';
+import { Hero, Overview, Statistics } from '../componentExport';
 
 const HomePage = () => {
   return (
