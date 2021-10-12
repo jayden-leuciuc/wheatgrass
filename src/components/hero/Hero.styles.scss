@@ -1,19 +1,38 @@
+@import '../../scss/mixins.scss';
+
 .hero-container {
   text-align: center;
   overflow: auto;
   max-width: 100%;
   padding: 0 100px;
+  @include lg {
+    height: 450px;
+    padding: 0 75px;
+    overflow: hidden;
+  }
+
   .left-div-container {
     max-width: 50%;
     padding-top: 75px;
-
     float: left;
     max-height: 100%;
     height: 600px;
+    @include md {
+      max-width: 100%;
+      height: 200px;
+    }
     .hero-text {
       font-weight: 400;
       font-size: 40px;
       padding-bottom: 15px;
+      @include sm {
+        font-size: 30px;
+      }
+    }
+    button {
+      @include sm {
+        font-size: 20px;
+      }
     }
     .hero-colored-text {
       color: #a1e2c3;
@@ -23,13 +42,21 @@
     padding: 50px 110px 110px;
     max-width: 50%;
     float: right;
-
+    @include md {
+      visibility: hidden !important;
+    }
     .hero-img {
       background-color: #a1e2c3;
       box-shadow: 25px 25px #636262;
       padding: 35px;
-      max-height: 100%;
-      max-width: 100%;
+      height: 30vh;
+      width: auto;
+
+      @include lg {
+        margin-top: 25px;
+        height: 200px;
+        width: auto;
+      }
     }
   }
 }

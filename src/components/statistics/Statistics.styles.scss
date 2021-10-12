@@ -1,10 +1,15 @@
+@import '../../scss/mixins.scss';
+
 .statistics-container {
   width: 100%;
   padding: 75px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
+  @include sm {
+    flex-direction: column;
+    padding: 50px 25px;
+  }
   text-align: center;
   .statistic-block {
     margin: 0;
@@ -12,5 +17,11 @@
     width: 47%;
     border: 2px solid #b4e7ce;
     border-radius: 5px;
+    @include sm {
+      width: 100%;
+      margin: 10px 0 !important;
+
+      overflow: hidden;
+    }
   }
 }

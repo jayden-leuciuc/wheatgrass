@@ -1,7 +1,13 @@
+@import '../../scss/mixins.scss';
+
 .overview-container {
-  background-color: #eee5e5;
+  background-color: rgb(228, 228, 228);
   max-width: 100%;
   margin: 0 100px;
+  @include lg {
+    margin: 0;
+  }
+
   h1 {
     text-align: center;
     padding: 10px 0 0;
@@ -13,19 +19,27 @@
     margin: 0 10vw;
 
     .overview-text-div {
-      padding: 100px 0 0 0;
+      padding: 100px 0 20px 0;
       max-width: 50%;
       font-size: 1.5rem;
+      text-align: center;
+      @include lg {
+        max-width: 100%;
+        text-align: center;
+        padding: 25px 0 20px;
+      }
       p {
         margin-bottom: 20px;
       }
     }
     .overview-svg-div {
       justify-content: center;
-
+      @include lg {
+        display: none;
+      }
       img {
-        background-color: #eee5e5;
-        height: 500px;
+        background-color: transparent;
+        height: 400px;
       }
     }
   }
