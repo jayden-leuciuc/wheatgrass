@@ -1,3 +1,5 @@
+@import '../../scss/mixins.scss';
+
 .faq-container {
   display: flex;
   justify-content: space-evenly;
@@ -9,14 +11,23 @@
     height: fit-content;
     padding: 45px 0 0;
     font-size: 20px;
+    @include md {
+      display: none;
+    }
     ul {
       list-style-type: none;
       h3 {
         font-size: 30px;
       }
+
       li {
         font-size: 23px;
         padding: 5px 0;
+        a {
+          &:hover {
+            color: #b4e7ce;
+          }
+        }
       }
     }
   }
@@ -25,6 +36,9 @@
     h1 {
       padding: 10px 10px 20px;
       font-size: 40px;
+      @include md {
+        font-size: 30px;
+      }
     }
     h2 {
       font-weight: 400;
@@ -35,6 +49,10 @@
       line-height: 1.5;
       font-size: 20px;
       padding-bottom: 35px;
+      @include md {
+        font-size: 20px;
+        padding-bottom: 20px;
+      }
     }
   }
 }

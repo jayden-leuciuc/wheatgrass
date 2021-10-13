@@ -1,3 +1,5 @@
+@import '../../scss/mixins.scss';
+
 .navbar-container {
   width: 100%;
   padding: 15px 5px;
@@ -17,6 +19,11 @@
     &:hover {
       border-bottom: 3px solid #b4e7ce;
       cursor: pointer;
+    }
+    &.download {
+      @include sm {
+        display: none;
+      }
     }
     img {
       max-height: 50px;

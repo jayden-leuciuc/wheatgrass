@@ -1,3 +1,5 @@
+@import '../../scss/mixins.scss';
+
 .footer-container {
   display: flex;
   justify-content: space-evenly;
@@ -5,6 +7,10 @@
   background-color: rgb(228, 228, 228);
   margin-top: auto;
 
+  @include sm {
+    flex-wrap: wrap;
+    flex: 1 1;
+  }
   .social-container {
     padding: 30px;
     display: flex;

@@ -1,11 +1,25 @@
+@import '../../scss/mixins.scss';
+
 .getstarted-container {
   display: flex;
   justify-content: space-around;
-  padding: 0 100px;
+  padding: 0 40px;
+  text-align: center;
+  @include md {
+    padding: 0 60px;
+  }
+  @include md {
+    flex-wrap: wrap;
+  }
   .started-left-div {
     padding: 30px 60px;
     max-width: 50%;
-
+    @include lg {
+      padding: 10px 30px;
+    }
+    @include md {
+      max-width: 100%;
+    }
     button {
       text-align: center;
     }
@@ -27,7 +41,7 @@
 
         .button-link {
           font-size: 1.5rem;
-          width: 500px;
+          width: 35vw;
           height: 100%;
           padding: 10px 0;
           border: 1px solid #b4e7ce;
@@ -35,6 +49,9 @@
           color: #87c38f;
           background-color: transparent;
           transition: color, background-color 0.5s;
+          @include lg {
+            width: 400px;
+          }
           &:hover {
             cursor: pointer;
             background-color: #b4e7ce;

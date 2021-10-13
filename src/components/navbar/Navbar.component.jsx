@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link to='/faq'>FAQ</Link>
       </li>
 
-      <li className='link-li'>
+      <li className='link-li download'>
         {' '}
         <Link to='download'>Download</Link>
       </li>

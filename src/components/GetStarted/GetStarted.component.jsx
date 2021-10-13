@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './GetStarted.styles.scss';
-import CustomButton from '../CustomButton/CustomButton.component';
 import { Link } from 'react-router-dom';
 
 const GetStarted = () => {
