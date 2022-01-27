@@ -42,9 +42,8 @@ const Footer = () => {
       <div className='list-container'>
         <h3>Developers</h3>
         <ul>
-          <li>Documentation</li>
-          <li>Tutorials</li>
-          <li>Resources</li>
+          <li><Link to='/docs'>Documentation</Link></li>
+          <li><Link to='/tutorials'>Tutorials</Link></li>
         </ul>
       </div>
 

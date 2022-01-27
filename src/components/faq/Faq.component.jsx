@@ -24,7 +24,6 @@ const Faq = () => {
       </div>
       <div className='questions-container'>
         <h1>Common Questions</h1>
-        <hr />
 
         {array.map(({ id, title, answer }) => {
           return (

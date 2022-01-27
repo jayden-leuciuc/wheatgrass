@@ -1,0 +1,15 @@
+.tutorials-container {
+  text-align: center;
+  h1 {
+    padding-bottom: 25px;
+  }
+  .search-container {
+    padding-bottom: 100px;
+  }
+  .tutorial-container {
+    .tutorial {
+      margin: 0 400px;
+      background-color: rgb(173, 173, 173);
+    }
+  }
+}

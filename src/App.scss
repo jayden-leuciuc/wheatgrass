@@ -6,3 +6,10 @@
   text-decoration: none;
   color: #010400;
 }
+.colored-link {
+  color: green;
+  &:hover {
+    color: aquamarine;
+    cursor: pointer;
+  }
+}

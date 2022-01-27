@@ -24,6 +24,9 @@ function App() {
           <Route exact path='/developers'>
             <TemplatePage componentProp={<Component.Developers />} />
           </Route>
+          <Route exact path='/docs'>
+            <TemplatePage componentProp={<Component.Docs />} />
+          </Route>
           <Route exact path='/download'>
             <TemplatePage componentProp={<Component.Download />} />
           </Route>
@@ -32,6 +35,9 @@ function App() {
           </Route>
           <Route exact path='/get-started'>
             <TemplatePage componentProp={<Component.GetStarted />} />
+          </Route>
+          <Route exact path='/tutorials'>
+            <TemplatePage componentProp={<Component.TutorialsPage />} />
           </Route>
           <Route path='/whitepaper'>
             <TemplatePage componentProp={<Component.Whitepaper />} />
