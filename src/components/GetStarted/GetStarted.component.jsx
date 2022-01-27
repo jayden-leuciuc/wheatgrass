@@ -27,10 +27,7 @@ const GetStarted = () => {
             </Link>
           </div>
           <div className='button-container'>
-            <Link className='button-link'>Get your wallet</Link>
-          </div>
-          <div className='button-container'>
-            <Link className='button-link'>Use it</Link>
+            <Link className='button-link'>Decentralize the network</Link>
           </div>
         </div>
       </div>

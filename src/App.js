@@ -33,6 +33,9 @@ function App() {
           <Route exact path='/get-started'>
             <TemplatePage componentProp={<Component.GetStarted />} />
           </Route>
+          <Route path='/whitepaper'>
+            <TemplatePage componentProp={<Component.Whitepaper />} />
+          </Route>
           <Route path='*'>
             <TemplatePage componentProp={<Component.Error404 />} />
           </Route>

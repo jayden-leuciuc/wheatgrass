@@ -13,6 +13,7 @@ import About from './about/About.component';
 import Careers from './Careers/Careers.component';
 import Contact from './contact/Contact.component';
 import HomePage from './Homepage/Homepage.Component';
+import Whitepaper from './Whitepaper/Whitepaper.component';
 
 export {
   Hero,
@@ -30,4 +31,5 @@ export {
   Careers,
   Contact,
   HomePage,
+  Whitepaper,
 };

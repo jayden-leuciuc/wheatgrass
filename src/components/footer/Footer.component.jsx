@@ -25,12 +25,14 @@ const Footer = () => {
       </div>
 
       <div className='list-container'>
-        <h3>Use Wheatgrass</h3>
+        <h3>Use and Learn</h3>
         <ul>
           <li>
             <Link to='/faq'>FAQ</Link>
           </li>
-          <li>Wallets</li>
+          <li>
+            <Link to='/whitepaper'>Whitepaper</Link>
+          </li>
           <li>
             <Link to='/download'>Download</Link>
           </li>
@@ -52,9 +54,7 @@ const Footer = () => {
           <li>
             <Link to='/about'>About</Link>
           </li>
-          <li>
-            <Link to='/careers'>Careers</Link>
-          </li>
+
           <li>
             <Link to='/contact'>Contact</Link>
           </li>
